@@ -7,3 +7,5 @@ roboflow
 opencv-python
 numpy
 pandas
+pymongo
+cloudinary
