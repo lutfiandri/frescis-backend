@@ -12,8 +12,8 @@ import cloudinary.uploader
 # Roboflow
 rf = Roboflow(api_key="HOCRxNRROICgFZfge4M8")
 project = rf.workspace().project("frescis")
-model = project.version(1).model
-
+model = project.version(3).model
+ 
 # Cloudinary
 cloudinary.config(
     cloud_name='drziipos7',
